@@ -1,0 +1,465 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(252, 246, 246);
+  width: 100%;
+  height: 20vh;
+  position: fixed;
+  z-index: 1;
+}
+nav {
+  display: flex;
+}
+
+nav li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 2rem;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  /* align-items:center; */
+  font-size: 1.4rem;
+  text-decoration: none;
+  list-style-type: none;
+  width: 80%;
+  line-height: 2.3rem;
+}
+
+/* LOGO */
+#logo {
+  background-color: rgb(24, 24, 75);
+  color: white;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Menu-container */
+#menu-container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+/* Styling the span elements */
+
+ul span {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  color: rgb(206, 139, 51);
+}
+
+ul a {
+  text-decoration: none;
+}
+
+/* styling the contact email and number */
+
+.address {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  flex-flow: column wrap;
+  width: 20%;
+  margin-top: 2rem;
+  line-height: 2rem;
+  color: rgb(206, 139, 51);
+}
+
+.address > span {
+  font-style: italic;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+/* The main bread cover pic */
+.first-pic {
+  height: 100%;
+  width: 99vw;
+  object-fit: cover;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+/* what we offer */
+.offer section {
+  width: 100%;
+  height: 50%;
+  padding: 3rem;
+  margin: 3rem;
+}
+
+hr {
+  width: 5%;
+  height: 8px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: rgb(194, 128, 43);
+}
+/* centering the headings */
+.center {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  margin: rem 0rem;
+}
+
+section.what-we-offer {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.offer1 {
+  background-image: url("./images/bread1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.offer2 {
+  background-image: url("./images/bread2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0rem 3rem 0rem 3rem;
+}
+
+.offer3 {
+  background-image: url("./images/rye-loaf.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Our Offer */
+.two {
+  background-color: rgb(56, 61, 133);
+  display: flex;
+  color: white;
+  height: 100vh;
+  margin: 2rem 0rem;
+}
+
+.story-content {
+  width: 50%;
+  text-align: center;
+  line-height: 2rem;
+  margin: 3rem;
+  font-size: 1.3rem;
+  font-family: cursive;
+}
+
+.story-content > hr {
+  margin: 0 auto;
+}
+
+.story {
+  margin: 1rem 0rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: row wrap;
+  width: 50%;
+  background-color: rgb(172, 201, 202);
+  /* border: 2px solid black; */
+  position: relative;
+}
+.gallery > img {
+  flex-direction: column;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.gallery-pic img {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+  /* flex: 1 1 0; */
+  /* width:50%; */
+  /* margin:0.5rem; */
+  object-fit: cover;
+  /* object-position: center; */
+}
+img {
+  display: flex;
+  /* flex-flow:row wrap; */
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+
+  /* justify-content:space-between; */
+}
+
+/* RESTAURANT */
+
+#restaurant {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  /* text-align: center; */
+}
+
+#r-menu {
+  padding-top: 2rem;
+}
+.rest-m {
+  display: flex;
+  justify-content: center;
+  margin: 15rem 0rem;
+  /* align-items: center; */
+}
+
+.rest-mb {
+  display: flex;
+  justify-content: center;
+  margin: 15rem 0rem;
+  background: black;
+}
+
+.three {
+  background-color: rgb(233, 227, 216);
+  /* color:white; */
+  /* display: flex; */
+  /* flex-flow:nowrap; */
+  height: 80%;
+  width: 100%;
+}
+
+.rest1 {
+  background-image: url("./images/bread5.jpeg");
+  background-repeat: no-repeat;
+  /* height:30rem; */
+  width: 30%;
+}
+
+.rest2 {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  /* height:50vh; */
+  width: 30%;
+}
+
+.rest3 {
+  background-image: url(./images/bread3.jpeg);
+  background-repeat: no-repeat;
+  /* height:30vh; */
+  width: 30%;
+  object-fit: cover;
+}
+
+/* OUR BREAD */
+.four {
+  /* display: flex; */
+  width: 100%;
+  flex-flow: column wrap;
+  height: 100vh;
+  background-color: rgb(245, 218, 184);
+}
+
+#four {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.bread > img {
+  width: 40vh;
+  height: 50%;
+  margin: 0rem 1.5rem;
+  justify-content: space-between;
+  border-radius: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Eli {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 0rem;
+}
+/* H2.Eli{
+  margin-top:2rem;
+} */
+#my-button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  border: 2px solid rgb(241, 131, 131);
+  border-radius: 10%;
+}
+
+/* Last but one */
+
+.last-offer {
+  width: 50%;
+}
+
+.last-offer > img {
+  height: 100vh;
+}
+.last-offer1 {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(228, 233, 233);
+}
+
+.five {
+  display: flex;
+}
+
+.subs-head {
+  padding: 5rem 0rem 0rem 0rem;
+}
+
+#sub-p {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+#subs-email-btn {
+  /* margin: 0rem 10rem; */
+  padding: 2rem 8rem;
+}
+
+input {
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  width: 250px;
+  padding-right: 50px;
+  height: 2.8rem;
+}
+input,
+button {
+  padding: 0.5rem;
+  border: 1.5px solid rgb(172, 94, 43);
+  border: 2px solid rgb(172, 94, 43);
+}
+
+#btn {
+  background-color: rgb(172, 94, 43);
+  border-left: px solid rgb(172, 94, 43);
+  color: white;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  margin-left: -20px;
+  height: 2.8rem;
+}
+
+.six {
+  display: flex;
+  height: 70vh;
+  background-color: rgb(87, 84, 84);
+  color: white;
+}
+
+.side {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  margin: 01rem 0rem 0rem 5rem;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.foot-details {
+  display: flex;
+  width: 50%;
+  /* background-color: rgb(155, 99, 14); */
+}
+
+#foot-list a {
+  text-decoration: none;
+  color: white;
+  height: 50%;
+  width: 10vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0rem 0rem 1rem 0rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact {
+  display: flex;
+  flex-flow: column wrap;
+  width: 25%;
+  /* height:50%; */
+  /* background-color: blueviolet; */
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+#social {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0rem 2rem;
+  width: 5vw;
+}
+
+#social > img {
+  display: flex;
+  flex-flow: row wrap;
+  height: 6vh;
+  /* color:white; */
+  background-color: rgb(163, 149, 149);
+  /* width:10vw; */
+}
+
+.svg {
+  display: flex;
+  flex-flow: column wrap;
+}
